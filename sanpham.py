@@ -1,36 +1,16 @@
-class sinhvien:
-    #các thuộc tính 
-    # ten_sv = ""
-    # nam_sinh = ""
-    # diem = ""
-
-    #các phương thức
-    def __init__(self, ten_sv, nam_sinh, diem, hoclaptrinh):
-        self.ten_sv = ten_sv
-        self.nam_sinh = nam_sinh
-        self.diem = diem
-        self.hoclaptrinh = hoclaptrinh
-    def hien_sv(self):
-        print(f"Tên sinh viên: {self.ten_sv}")
-        print(f"Năm sinh: {self.nam_sinh}")
-        print(f"Điểm: {self.diem}")
-        print(f"Học lập trình: {self.hoclaptrinh}")
-
+class sampham: 
+    def __init__(self, tensp, giamgiasp, giasp):
+        self.giasp = giasp
+        self.tensp = tensp
+        self.giamgiasp = giamgiasp
+        
+    def thuenhapkhau(self):
+        return self.giasp * 0.1
     
-
-
-# sv1 = sinhvien()
-# sv1.them_sv("Nguyễn Văn A", "2000", "8.5")
-# sv1.hien_sv())
-class svxldl(sinhvien):
-    def __init__(self, ten_sv, nam_sinh, diem, hoclaptrinh):
-        super().__init__(ten_sv, nam_sinh, diem)
-        self.hoclaptrinh = hoclaptrinh
-
-
-
-    def __str__(self):
-        return f"{super().__str__()} và học lập trình {self.hoclaptrinh}"
-    
-    sv1 = svxldl("Nguyen Van A", 2000, 8.5, "Co")
-    sv1.hien_sv()
+    def nhap_thong_tin_sp(self):
+        self.tensp = input("Nhập tên sản phẩm: ")
+        self.giasp = float(input("Nhập giá sản phẩm: "))
+        self.giamgiasp = float(input("Nhập giảm giá sản phẩm: "))
+    def xuat_thong_tin_sp(self):
+        print(f"Sản Phẩm {self.tensp} Giá: {self.giasp} Giảm giá: {self.giamgiasp} Thuế nhập khẩu: {self.thuenhapkhau()}")
+#gt
