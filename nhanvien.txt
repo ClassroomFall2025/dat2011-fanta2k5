@@ -1,0 +1,11 @@
+Danh sách nhân viên:
+---------------------------------------------
+PS45975 | nguyễn thế hoàng | 19 | fpl | 100000000000
+PS10019 | nguyễn sếp B | 45 | fpl | 50000000
+PS10018 | nguyễn kuy I | 20 | fpl | 20000000
+PS10011 | nguyễn si đa | 18 | fpl | 20000000
+PS10014 | nguyễn văn R | 24 | fpl | 12000000
+PS10017 | nguyễn huy U | 35 | fpl | 7000000
+PS10015 | nguyễn văn T | 23 | fpl | 7000000
+PS10012 | nguyễn văn W | 18 | fpl | 7000000
+PS10016 | nguyễn văn Y | 18 | fpl | 4200000
